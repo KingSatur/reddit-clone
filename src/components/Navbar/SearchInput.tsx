@@ -3,13 +3,11 @@ import { SearchIcon } from "@chakra-ui/icons";
 import { Flex, Input, InputGroup, InputLeftElement } from "@chakra-ui/react";
 import React from "react";
 
-interface Props {
-  children: React.ReactNode;
-}
+interface Props {}
 
-const SearchInput: React.FC<Props> = ({ children }) => {
+const SearchInput: React.FC<Props> = () => {
   return (
-    <Flex>
+    <Flex flex="1">
       <InputGroup>
         <InputLeftElement
           pointerEvents="none"
